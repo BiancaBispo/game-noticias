@@ -20,7 +20,7 @@
 </head>
 <body>
     <!--IMPORTAR através do php o menu pronto-->
-    <?php include_once "./src/view/header.php";?>
+    <?php include_once "./src/view/geral/header.php";?>
 
     <section>
         <div id="noticias" class="noticias"></div>
@@ -42,6 +42,6 @@
     </section>
 
     <!--IMPORTAR através do php o footer = rodapé pronto-->
-    <?php include_once "./src/view/footer.php";?>
+    <?php include_once "./src/view/geral/footer.php";?>
 </body>
 </html>

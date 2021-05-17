@@ -6,8 +6,8 @@
  *-->
  
 <?php include_once("conexao.php");
-$id_curso = $_GET['id'];
-$result_cursos = "SELECT * FROM cursos WHERE id='$id_curso'";
+$id_produto = $_GET['id'];
+$result_cursos = "SELECT * FROM tabela_produtos WHERE id='$id_produto'";
 $resultado_cursos = mysqli_query($conn, $result_cursos);
 $row_cursos = mysqli_fetch_assoc($resultado_cursos);
 ?>
@@ -27,7 +27,7 @@ $row_cursos = mysqli_fetch_assoc($resultado_cursos);
 	<body>
 		<div class="container theme-showcase" role="main">
 			<div class="page-header">
-				<h1><?php echo $row_cursos['nome']; ?></h1>
+				<h1><?php echo $row_cursos['nome_produto']; ?></h1>
 				<img src="../media/fundo 2.jpeg" alt="..." >
 			</div>
 			<div>

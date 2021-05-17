@@ -99,7 +99,8 @@ function montaCards(news) {
                     <p class="card-text" align="justify">${news.body.substring(0,520)+"..."}</p>
                     <p class="card-text">${news.author.name}</p>
                     <div class="text-right">
-                        <a href="${news.links.permalink}" class="btn btn-color-news slide-btn btn-lg" target="_blank">Visitar</a>
+                        <a href="${news.links.permalink}" class="btn btn-color-news slide-btn btn-lg" 
+                        target="_blank">Visitar</a>
                     </div>
                 </div>
             </div>

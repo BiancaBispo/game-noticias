@@ -1,4 +1,4 @@
-drop table curso;
+create database produtos;
 
 create table curso (
 id int not null,

@@ -18,8 +18,8 @@ Class NewsAPI {
         //$this->url="https://api.aylien.com/news/stories?title=game%20jogos&body=game%20conferencia%20eventos&text=game%20PC%20console&language[]=pt&return[]=id&return[]=title&return[]=body&return[]=author&return[]=published_at&return[]=links";
         
         //$this->url = "https://api.aylien.com/news/stories?title=CBloL%20jogo%20v%C3%ADdeo%20game%20&body=playstation%20PS5%20jogo%20confer%C3%AAncia%20&text=v%C3%ADdeo%20game%20PC%20console%20computador&language[]=pt&entities.title.links.dbpedia[]=&return[]=id&return[]=title&return[]=body&return[]=author&return[]=media&return[]=published_at&return[]=links";
-        $this->applicationID = "1a0005d0";
-        $this->ApplicationKEY = "d66a73404d4d3277c8b3f79fc3716100";
+        $this->applicationID = "afaebb1e";
+        $this->ApplicationKEY = "8a4dcbf75ced6e7d217e222abb6aaccd";
     }
     
     public function get(){
